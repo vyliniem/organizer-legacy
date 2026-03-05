@@ -1,0 +1,295 @@
+{
+  "id": "org_data1",
+  "name": "org_data1",
+  "description": null,
+  "roles": [
+    {
+      "id": 1,
+      "name": "Administrator",
+      "credentials": [
+        "group",
+        "role",
+        "resource",
+        "supplier",
+        "status",
+        "type",
+        "priority",
+        "user",
+        "event",
+        "log"
+      ],
+      "is_active": 1
+    },
+    {
+      "id": 2,
+      "name": "Test-role",
+      "credentials": [
+        "resource",
+        "supplier",
+        "event"
+      ],
+      "is_active": 1
+    },
+    {
+      "id": 3,
+      "name": "koordinator",
+      "credentials": [
+        "group",
+        "resource",
+        "supplier",
+        "status",
+        "type",
+        "priority",
+        "event"
+      ],
+      "is_active": 1
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "name": "Project XYZ",
+      "is_active": 1
+    },
+    {
+      "id": 2,
+      "name": "Test-client",
+      "is_active": 1
+    },
+    {
+      "id": 3,
+      "name": "Programmers",
+      "is_active": 1
+    },
+    {
+      "id": 4,
+      "name": "Test group",
+      "is_active": 1
+    }
+  ],
+  "statuses": [
+    {
+      "id": 1,
+      "name": "Registered",
+      "ordering": 1,
+      "fg_color": "Black",
+      "bg_color": "Yellow",
+      "is_active": 1
+    },
+    {
+      "id": 2,
+      "name": "In progress",
+      "ordering": 2,
+      "fg_color": "White",
+      "bg_color": "Blue",
+      "is_active": 1
+    },
+    {
+      "id": 3,
+      "name": "Finished",
+      "ordering": 3,
+      "fg_color": "White",
+      "bg_color": "Green",
+      "is_active": 1
+    },
+    {
+      "id": 4,
+      "name": "Failed",
+      "ordering": 4,
+      "fg_color": "White",
+      "bg_color": "Red",
+      "is_active": 1
+    },
+    {
+      "id": 5,
+      "name": "Cancelled",
+      "ordering": 5,
+      "fg_color": "White",
+      "bg_color": "Black",
+      "is_active": 1
+    },
+    {
+      "id": 6,
+      "name": "Project start",
+      "ordering": 1,
+      "fg_color": "Yellow",
+      "bg_color": "Fuchsia",
+      "is_active": 1
+    }
+  ],
+  "priorities": [
+    {
+      "id": 1,
+      "name": "Halted",
+      "ordering": 1,
+      "fg_color": "White",
+      "bg_color": "Gray",
+      "is_active": 1
+    },
+    {
+      "id": 2,
+      "name": "Lower",
+      "ordering": 2,
+      "fg_color": "Black",
+      "bg_color": "Yellow",
+      "is_active": 1
+    },
+    {
+      "id": 3,
+      "name": "Normal",
+      "ordering": 3,
+      "fg_color": "White",
+      "bg_color": "Blue",
+      "is_active": 1
+    },
+    {
+      "id": 4,
+      "name": "Higher",
+      "ordering": 4,
+      "fg_color": "White",
+      "bg_color": "Green",
+      "is_active": 1
+    },
+    {
+      "id": 5,
+      "name": "Urgent",
+      "ordering": 5,
+      "fg_color": "White",
+      "bg_color": "Red",
+      "is_active": 1
+    },
+    {
+      "id": 6,
+      "name": "Tärkeä",
+      "ordering": 1,
+      "fg_color": "White",
+      "bg_color": "Black",
+      "is_active": 1
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "name": "Transfer",
+      "fg_color": "Black",
+      "bg_color": "transparent",
+      "is_active": 1
+    },
+    {
+      "id": 2,
+      "name": "Delivery",
+      "fg_color": "Black",
+      "bg_color": "transparent",
+      "is_active": 1
+    },
+    {
+      "id": 3,
+      "name": "Collect",
+      "fg_color": "Black",
+      "bg_color": "transparent",
+      "is_active": 1
+    },
+    {
+      "id": 4,
+      "name": "Repair",
+      "fg_color": "Black",
+      "bg_color": "transparent",
+      "is_active": 1
+    },
+    {
+      "id": 5,
+      "name": "Cleanup",
+      "fg_color": "Black",
+      "bg_color": "transparent",
+      "is_active": 1
+    },
+    {
+      "id": 6,
+      "name": "Other",
+      "fg_color": "Black",
+      "bg_color": "transparent",
+      "is_active": 1
+    },
+    {
+      "id": 7,
+      "name": "Delegoi",
+      "fg_color": "White",
+      "bg_color": "Navy",
+      "is_active": 1
+    }
+  ],
+  "suppliers": [
+    {
+      "id": 1,
+      "name": "Test Client",
+      "description": null,
+      "is_active": 1
+    },
+    {
+      "id": 2,
+      "name": "Supplier XYZ",
+      "description": null,
+      "is_active": 1
+    },
+    {
+      "id": 3,
+      "name": "Company CCC",
+      "description": null,
+      "is_active": 1
+    },
+    {
+      "id": 4,
+      "name": "Contractor ABC",
+      "description": null,
+      "is_active": 1
+    },
+    {
+      "id": 5,
+      "name": "Partner PPP",
+      "description": null,
+      "is_active": 1
+    }
+  ],
+  "resources": [
+    {
+      "id": 1,
+      "name": "MB Transporter (ABC-123)",
+      "user_id": null,
+      "description": null,
+      "is_active": 1
+    },
+    {
+      "id": 2,
+      "name": "VW Minibus (XYZ-666)",
+      "user_id": null,
+      "description": null,
+      "is_active": 1
+    },
+    {
+      "id": 3,
+      "name": "Driver John Smith",
+      "user_id": 2,
+      "description": null,
+      "is_active": 1
+    },
+    {
+      "id": 4,
+      "name": "Driver John Doe",
+      "user_id": null,
+      "description": null,
+      "is_active": 1
+    },
+    {
+      "id": 5,
+      "name": "HP ProBook (#387629)",
+      "user_id": null,
+      "description": null,
+      "is_active": 1
+    }
+  ],
+  "_rid": "-noMAMk2M1IPAAAAAAAAAA==",
+  "_self": "dbs/-noMAA==/colls/-noMAMk2M1I=/docs/-noMAMk2M1IPAAAAAAAAAA==/",
+  "_etag": "\"0a0147f4-0000-4700-0000-68add1fc0000\"",
+  "_attachments": "attachments/",
+  "_ts": 1756221948
+}

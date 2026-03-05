@@ -1,0 +1,16 @@
+{
+  "id": "137",
+  "tenant": "org_data2",
+  "user_id": 1,
+  "event_id": 78,
+  "status_id": 72,
+  "description": "Event create",
+  "ip_address": "193.210.166.105",
+  "created_at": "2025-07-14T16:38:37.000Z",
+  "updated_at": "2025-07-14T16:38:37.000Z",
+  "_rid": "-noMANWN4-aiAAAAAAAAAA==",
+  "_self": "dbs/-noMAA==/colls/-noMANWN4-Y=/docs/-noMANWN4-aiAAAAAAAAAA==/",
+  "_etag": "\"0f025823-0000-4700-0000-68add2090000\"",
+  "_attachments": "attachments/",
+  "_ts": 1756221961
+}
